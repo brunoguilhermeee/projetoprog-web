@@ -1,0 +1,98 @@
+.logoChild {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-limegreen);
+  width: 34px;
+  height: 41px;
+  z-index: 0;
+}
+.oodiIcon {
+  position: relative;
+  width: 70.19px;
+  height: 22.84px;
+  z-index: 1;
+}
+.fIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 8.08px;
+  left: 8.36px;
+  width: 18.45px;
+  height: 23.96px;
+  z-index: 2;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-8xs);
+}
+.faaSeuCadastro {
+  position: relative;
+  line-height: 0px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+.header,
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+  z-index: 0;
+}
+.vectorIcon {
+  position: relative;
+  width: 25.77px;
+  height: 25.41px;
+}
+.buttonClose01,
+.popup {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonClose01 {
+  margin: 0 !important;
+  position: absolute;
+  top: 27px;
+  left: 588px;
+  padding: var(--padding-8xs);
+  cursor: pointer;
+  z-index: 2;
+}
+.popup {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 662px;
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--text-3xl-leading-9-font-extrabold-size);
+  color: var(--gray-900);
+  font-family: var(--text-3xl-leading-9-font-extrabold);
+}
+
+@media (max-width: 767px) {
+  .buttonClose01 {
+    margin: 0 !important;
+    position: absolute;
+    top: 27px;
+    left: 90%; /* Posicionado no centro horizontal do pai */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    padding: var(--padding-8xs);
+    cursor: pointer;
+    z-index: 2;
+  }
+}

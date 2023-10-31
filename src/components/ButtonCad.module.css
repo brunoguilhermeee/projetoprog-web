@@ -1,0 +1,27 @@
+.fazerCadastroAgora {
+  position: relative;
+  font-weight: 800;
+}
+
+
+.property1default {
+  border-radius: var(--br-21xl);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-28xl);
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-limegreen);
+  font-family: var(--text-3xl-leading-9-font-extrabold);
+  transition: color 1s; 
+}
+
+.property1default:hover{
+  box-shadow: -2px 22px 38px rgba(142, 255, 154, 0.5);
+  background-color: var(--color-limegreen);
+  color: var(--white);
+}

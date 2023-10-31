@@ -1,0 +1,266 @@
+.peaSuaComida {
+  margin: 0;
+}
+.agoraMesmo {
+  color: var(--color-limegreen);
+}
+.peaSuaComidaContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 145.52%;
+  font-weight: 800;
+}
+
+.aproveiteOMelhor,
+.verCardpio {
+  position: relative;
+  font-size: var(--font-size-7xl);
+}
+.aproveiteOMelhor {
+  align-self: stretch;
+  line-height: 170.5%;
+  font-weight: 500;
+  color: var(--color-darkslategray-100);
+}
+.verCardpio {
+  font-weight: 800;
+  font-family: var(--text-3xl-leading-9-font-extrabold);
+  color: var(--white);
+  text-align: left;
+}
+.button,
+.peaSuaComidaFavoritaAgoraParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-28xl);
+  background-color: var(--color-limegreen);
+  border-radius: var(--br-21xl);
+  box-shadow: -2px 22px 38px rgba(142, 255, 154, 0.5);
+  flex-direction: row;
+}
+.button:hover {
+  box-shadow: 0 4px 50px rgba(68, 255, 0, 0.25),
+    -2px 22px 38px rgba(142, 255, 154, 0.5);
+}
+.peaSuaComidaFavoritaAgoraParent {
+  width: 608px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  min-width: 608px;
+}
+.ilustraoIcon {
+  position: absolute;
+  top: 0;
+  left: 48.53px;
+  width: 543.44px;
+  height: 615.09px;
+}
+.frameChild {
+  position: relative;
+  width: 270.01px;
+  height: 130.37px;
+  z-index: 0;
+}
+.comidaPicante {
+  position: absolute;
+  margin: 0 !important;
+  top: 33px;
+  left: 40px;
+  font-weight: 600;
+  z-index: 1;
+}
+.vectorParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7.71px;
+}
+.groupChild {
+  position: absolute;
+  top: 431.24px;
+  left: 329.58px;
+  border-radius: 19.29px;
+  background-color: var(--white);
+  box-shadow: 5.400115013122559px 27.00057601928711px 39.34px
+    rgba(0, 0, 0, 0.14);
+  width: 278.42px;
+  height: 101.83px;
+}
+.saladaVegetariana {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 174.58px;
+}
+.span {
+  font-size: 18.51px;
+  color: var(--color-dimgray-200);
+}
+.r2300 {
+  position: absolute;
+  top: 48.6px;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 78.95px;
+  font-size: 13.89px;
+  color: var(--color-salmon-100);
+}
+.fiBrStarIcon,
+.fiSrStarIcon,
+.fiSrStarIcon1,
+.fiSrStarIcon2,
+.fiSrStarIcon3 {
+  position: absolute;
+  top: 28.54px;
+  left: 0;
+  width: 13.73px;
+  height: 12.34px;
+  overflow: hidden;
+}
+.fiBrStarIcon,
+.fiSrStarIcon1,
+.fiSrStarIcon2,
+.fiSrStarIcon3 {
+  left: 19.73px;
+}
+.fiBrStarIcon,
+.fiSrStarIcon2,
+.fiSrStarIcon3 {
+  left: 39.46px;
+}
+.fiBrStarIcon,
+.fiSrStarIcon3 {
+  left: 59.19px;
+}
+.fiBrStarIcon {
+  left: 78.92px;
+}
+.saladaVegetarianaParent {
+  position: absolute;
+  top: 444.35px;
+  left: 418px;
+  width: 174.58px;
+  height: 70.6px;
+  font-size: 16.97px;
+  color: var(--color-gray-100);
+}
+.maskGroupIcon {
+  position: absolute;
+  top: 444.07px;
+  left: 338px;
+  width: 73.74px;
+  height: 75.6px;
+  object-fit: cover;
+}
+.frameParent {
+  position: absolute;
+  top: 136.93px;
+  left: 0;
+  width: 608px;
+  height: 533.07px;
+}
+.groupItem,
+.macarroPicante {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.groupItem {
+  border-radius: 19.29px;
+  background-color: var(--white);
+  box-shadow: 5.400115013122559px 27.00057601928711px 39.34px
+    rgba(0, 0, 0, 0.14);
+  width: 262.61px;
+  height: 101.83px;
+}
+.macarroPicante {
+  font-weight: 600;
+  display: inline-block;
+  width: 159px;
+}
+.div,
+.groupInner {
+  position: absolute;
+  left: 3px;
+}
+.div {
+  top: 50.17px;
+  font-weight: 600;
+  display: inline-block;
+  width: 116px;
+  font-size: 13.89px;
+  color: var(--color-salmon-100);
+}
+.groupInner {
+  top: 30px;
+  width: 81.27px;
+  height: 12.34px;
+}
+.groupWrapper,
+.macarroPicanteParent,
+.maskGroupIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 159px;
+  height: 72.17px;
+}
+.groupWrapper,
+.maskGroupIcon1 {
+  top: 16.83px;
+  left: 104.42px;
+}
+.maskGroupIcon1 {
+  top: 13.11px;
+  left: 15.05px;
+  width: 73.74px;
+  height: 75.6px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: absolute;
+  top: 568.17px;
+  left: 25.58px;
+  width: 263.42px;
+  height: 101.83px;
+  font-size: 16.97px;
+  color: var(--color-gray-100);
+}
+.ilustraoHeader {
+  position: relative;
+  width: 608px;
+  height: 670px;
+  min-width: 608px;
+  font-size: 15.43px;
+  color: var(--color-salmon-200);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 1216px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-43xl);
+  color: var(--color-black);
+  font-family: var(--text-3xl-leading-9-font-extrabold);
+}
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+}
+

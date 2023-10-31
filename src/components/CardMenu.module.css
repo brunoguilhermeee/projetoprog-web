@@ -1,0 +1,252 @@
+.pratosDeDestaque,
+.pratosEspeciais {
+  align-self: stretch;
+  position: relative;
+}
+.pratosEspeciais {
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.pratosDeDestaque {
+  font-size: var(--font-size-41xl);
+  line-height: 131.52%;
+  color: var(--color-black);
+}
+.pratosEspeciaisParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 600px;
+}
+.frameChild {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-whitesmoke);
+  width: 80px;
+  height: 80px;
+  z-index: 0;
+}
+.frameItem {
+  position: absolute;
+  margin: 0 !important;
+  top: 30px;
+  left: 32px;
+  width: 11.76px;
+  height: 20px;
+  z-index: 1;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.frameInner {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-limegreen);
+  width: 80px;
+  height: 80px;
+  z-index: 0;
+}
+.groupIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: 30px;
+  left: 34px;
+  width: 11.76px;
+  height: 20px;
+  z-index: 1;
+}
+.ellipseGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frameWrapper {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+}
+.frameContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.fattoushSaladIcon {
+  position: relative;
+  width: 276px;
+  height: 276px;
+  object-fit: cover;
+  z-index: 0;
+}
+.descrioDoItem,
+.saladaGorda {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.descrioDoItem {
+  font-size: var(--font-size-3xl);
+  color: var(--color-dimgray-100);
+}
+.span {
+  font-size: var(--text-3xl-leading-9-font-extrabold-size);
+  color: var(--color-black);
+}
+.fiSrStarIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.fiSrStarParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  color: var(--color-darkslategray-200);
+}
+.r2400Parent,
+.saladaGordaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.r2400Parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-144xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-salmon-200);
+}
+.saladaGordaParent {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  z-index: 1;
+}
+.ellipseDiv {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-limegreen);
+  width: 67px;
+  height: 67px;
+  z-index: 0;
+}
+.fiSrHeartIcon {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12.5px);
+  left: calc(50% - 12.5px);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.card,
+.ellipseContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+.ellipseContainer {
+  margin: 0 !important;
+  position: absolute;
+  top: 15px;
+  left: 320px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.card {
+  border-radius: var(--br-11xl);
+  background-color: var(--white);
+  box-shadow: var(--sombra-cards);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-5xl);
+  position: relative;
+  gap: var(--gap-5xl);
+}
+.descrioDoItem1 {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  font-weight: 600;
+  color: var(--color-dimgray-100);
+}
+.r2600Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-144xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-salmon-200);
+}
+.eggSaladIcon {
+  position: relative;
+  width: 294px;
+  height: 296px;
+  object-fit: cover;
+  z-index: 0;
+}
+.saladaVegetarianaDe {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 356px;
+}
+.span2 {
+  font-size: var(--text-3xl-leading-9-font-extrabold-size);
+  color: var(--color-gray-400);
+}
+.cardParent,
+.frameParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.cardParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-21xl);
+  font-size: var(--text-3xl-leading-9-font-extrabold-size);
+  color: var(--color-black);
+}
+.frameParent {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-53xl);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-salmon-200);
+  font-family: var(--text-3xl-leading-9-font-extrabold);
+}

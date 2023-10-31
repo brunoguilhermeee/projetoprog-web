@@ -1,0 +1,11 @@
+.crieUma {
+    cursor: pointer;
+    font-weight: 800;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 20px;
+    font-family: var(--text-3xl-leading-9-font-extrabold);
+    color: var(--color-limegreen);
+    text-align: left;
+ 
+  }
